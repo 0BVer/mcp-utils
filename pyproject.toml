@@ -1,0 +1,10 @@
+[project]
+name = "mcp-utils"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "pendulum>=2.1.2",
+]
